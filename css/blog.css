@@ -1,0 +1,57 @@
+#blogs .container .card-body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	text-align: left;
+}
+#blogs .container .row > div {
+	margin-top: 30px;
+}
+
+#blogs .container .card-body:hover {
+	background-color: rgba(0,0,0,0.3);
+	transition: .35s ease-in-out;
+}
+
+#blog-btn {
+	margin-top: 12px;
+	
+}
+
+#blog-title {
+	position: absolute;
+	bottom: 20px;
+}
+
+#blog-btn span{
+	color:#fff;
+	background-color: #ff9625;
+	padding: 10px;
+	font-weight: 400;
+	margin-right: 8px;
+}
+
+#blog-title ul {
+	padding: 0;
+	list-style: none;
+}
+
+#blog-title ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+#blog-title ul li i{
+	margin-right: 2px;
+}
+
+#blog-title {
+	width: 85%;
+	font-weight: 700;
+	color:#fff;
+}
+
+.text-neon-carrot {
+	color:#ff9625;
+}

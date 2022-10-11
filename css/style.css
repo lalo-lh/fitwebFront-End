@@ -1,0 +1,295 @@
+@import url("carousel.css");
+@import url("coaches.css");
+@import url("blog.css");
+@import url("testimonials.css");
+@import url("footer.css");
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+header {
+	color: white;
+}
+
+nav {
+	width: 100%;
+	position: absolute;
+	z-index: 99999;
+}
+
+.navbar-top-panel .left-side {
+	float: left;
+}
+
+.navbar-top-panel .center {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.navbar-top-panel .right-side{
+	float: right;
+}
+
+.navbar-top-panel {
+	padding: 10px 0 35px;
+	margin-bottom: 27px;
+	background-color: #d01919;
+}
+
+.navbar-top-panel span i {
+	padding: 0 5px;
+}
+
+.navbar-brand {
+	float: left;
+}
+
+.nav-item {
+	margin-left: 25px;
+}
+
+.nav-link {
+	padding: 0;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 0.06em;
+}
+
+#nav-menu .icon {
+	display: none;
+	font-size: 30px;
+	color: #fff;
+}
+
+.content {
+	height: 56px;
+	width: 100%;
+	padding: 10px 8%; 
+}
+
+.main-menu {
+	margin-top: 10px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	max-width: 100%;
+	background-color: #191919;
+	box-shadow: 0 3px 11px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link:hover {
+	color:#ffce25;
+	transition: .3s all ease;
+}
+
+.parallide-01{
+	background-image: url(../img/head);
+	height:  700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallide-02{
+	background-image: url(../img/head1);
+	height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallide-03{
+	background-image: url(../img/head2);
+	height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel-caption {
+	right: 10%;
+	left: 10%;
+	padding-bottom: 100px;
+}
+
+.carousel-caption h1 {
+	font-size: 90px;
+	font-weight: 700;
+}
+
+.carousel-caption p {
+	font-size: 22px;
+	font-weight: 300;
+	max-width: 66.6667%;
+	margin: auto;
+}
+.carousel-caption div{
+	margin-top: 50px;
+	padding: 9px 26px;
+}
+
+header .carousel-control-prev {
+	position: fixed;
+}
+
+header .carousel-control-next {
+	position: fixed;
+}
+
+.page-content {
+	position: relative;
+	color: #000;
+	height: 700px;
+}
+
+#welcome, #coaches, #blogs{
+	text-align: center;
+	margin: auto;
+	padding: 110px 0;
+}
+
+#welcome h1, #coaches h1, #blogs h1{
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 21px;
+}
+
+#welcome hr,#coaches hr, #blogs hr{
+	width: 40px;
+	border: 1px solid #d01919;
+}
+
+
+#headWelcome p {
+	width: 66.6667%;
+	margin: auto;
+	margin-top: 66px;
+}
+
+#services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 98px;
+}
+
+#services .serv {
+	padding: 42px 25px;
+	border:2px solid #f2f2f2;
+	margin: 0 15px;
+	width: 30%;
+}
+
+.serv span {
+	font-size: 30px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50%;
+	padding: 20px;
+	margin: 2%;
+	border: 2px solid #f2f2f2;
+	position: relative;
+	bottom: 65px;
+}
+
+.serv h4 {
+	color: #d01919;
+	font-size: 24;
+	font-weight: 700;
+}
+
+#coaches hr {
+	margin-bottom: 50px;
+}
+
+#coaches button, #blogs button{
+	margin-top: 50px;
+}
+
+
+footer {
+	background-color: #191919;
+	color:#fff;
+}
+
+@media screen and (max-width: 800px){
+	#nav-menu ul , .navbar-top-panel, .navbar-brand{
+		display: none;
+	}
+	
+	nav, #nav-menu{
+		height: 56px;
+		background-color: #191919;
+		box-shadow: 0 3px 11px rgba(0, 0, 0, 0.15);
+		z-index: 16;
+		position: fixed;
+	}
+
+	#nav-menu .icon {
+		display: block;
+	}
+
+	.responsive {
+		position: absolute;
+		top: 0;
+	}
+	
+	#nav-menu .responsive{
+		width: 280px;
+		display: block;
+		float: none;
+		text-align: left;
+		background-color: #191919;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		top: 46px;
+		z-index: 14;
+		padding: 0 10px 0;
+		list-style: none;
+	}
+	
+	#nav-menu .responsive li a {
+		padding: 8px 30px 8px 15px;
+	}
+
+	#nav-menu .responsive li {
+		margin-top: 5px;
+		margin-left: 0;
+	}
+
+	#nav-menu .responsive li:hover {
+		background-color: #262627;
+	}
+	
+	.carousel-caption {
+		padding-bottom: 250px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 45px;
+	}
+	.carousel-caption p {
+		font-size: 20px;
+	}
+
+	#services {
+		width: 70%;
+		margin: 98px auto;
+	}
+
+	#services .serv {
+		width: 100%;
+		margin-top: 98px;
+	}
+}

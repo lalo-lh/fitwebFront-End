@@ -1,0 +1,88 @@
+/*
+
+coaches 
+
+ */
+#coaches .card {
+	border: none;
+}
+
+#coaches .card-body {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#coaches .card .card-body h5{
+	font-size: 22px;
+}
+
+#coaches .card .card-body h5 small{
+	color: #d01919;
+}
+#coaches .card-text {
+	font-size: 15px;
+	color: #939393;
+}
+
+.coach-hover-d{
+	position: relative;
+}
+
+.membersSocial {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.box-member {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.box-member ul {
+	padding: 0;
+	margin-top: 0;
+}
+
+
+.box-member ul li {
+	list-style: none;
+	display: inline-block;
+	transform: translateY(40%);
+	opacity: 0;
+	margin:5px;
+	transition: .35s all ease;
+}
+
+.box-member ul li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+	line-height: 2.3;
+}
+
+ .membersSocial:hover {
+	background-color: rgba(255,255,255,0.7);
+}
+
+
+.box-member ul li:nth-of-type(1) a:hover {
+	background-color: #3b5999;
+}
+
+.box-member ul li:nth-of-type(2) a:hover {
+	background-color: #55acee;
+}
+
+.box-member ul li:nth-of-type(3) a:hover {
+	background-color: #dd4b39;
+}
+
